@@ -1,9 +1,7 @@
 #!/bin/sh -l
 
 source /opt/OpenFOAM/setImage_v1906.sh
-cd /home/cavity
-blockMesh
-icoFoam
+blockMesh -help
 
 echo "Hello $1"
 time=$(date)
