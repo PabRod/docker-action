@@ -1,5 +1,7 @@
 #!/bin/sh -l
 
+ls
+
 source /opt/OpenFOAM/setImage_v1906.sh
 blockMesh -help
 
